@@ -4,12 +4,15 @@ import './App.css';
 
 //components
 import  {DashboardTest}  from './Components/DashboartTest';
+import { PlayerList } from './Components/PlayerList';
 
 function App() {
   return (
     <div className="App">
-      this is main
-      <DashboardTest />
+      <p></p>
+      2015 Chicago Fire Hockey Team
+      <p></p>
+      <PlayerList/>
     </div>
    
   );

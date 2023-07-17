@@ -1,0 +1,10 @@
+.RightMenu{
+    width: 78%;
+    background-color:red;
+    padding: 10px;
+    position: absolute;
+    margin-right: 10px;
+    right: 0;
+    height: 100vh;
+    
+    }

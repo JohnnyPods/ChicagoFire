@@ -1,22 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Main from './Main';
+import { LeftMenu } from './Components/LeftComponent/LeftMenu';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import StatDisplay from './Components/StatDisplayComponent/StatDisplay';
+import { TeamCalendar } from './Components/TeamCalendarComponent/TeamCalendar';
+import TeamInfo from './Components/TeamInfoComponent/TeamInfo';
+import '/Users/johnpod/ReactProject/my-app/src/Components/LeftComponent/LeftMenu.css';
+import { RightMenu } from './Components/RightMenuComponent/RightMenu';
+
 
 
 
 
 
 function App() {
-  return (
-    <div className="App">
-     
-      
-      <Main />
-    
+  return ( 
+    <div className='App'>
+    <BrowserRouter>
+    <LeftMenu/>
+    <RightMenu/>
+    </BrowserRouter>
     </div>
-   
+    
   );
 }
 
-export default App;
+export default App

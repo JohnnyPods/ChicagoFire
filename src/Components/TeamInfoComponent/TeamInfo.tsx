@@ -28,7 +28,7 @@ const TeamInfo = () => (
         2015 CHICAGO FIRE HOCKEY TEAM
     </Seg>
     <Seg size='massive' inverted>
-        RECORD 0-0-0
+        RECORD 1-0-0
     </Seg>
   </div>
   )

@@ -10,6 +10,7 @@ export const LeftMenu = () => {
     return(
         <div className='LeftMenu'>
            <TopLeftLogo/>
+           <PlayerDrop/>
            <StatMenu/>
         </div>
 

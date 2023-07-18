@@ -40,16 +40,16 @@ const ButtonContainer = (text:string) => {
 </Seg>
 <Seg size = "massive" inverted>
         Player Stats
-        <Button size='large' inverted color='red'>
+        <Button as={Link} to="/Face-off" size='large' inverted color='red'>
           Face-Offs
         </Button>
-        <Button as ={Link} to="/Points" size='large' inverted color='red'>
+        <Button as={Link} to="/Points" size='large' inverted color='red'>
           Points
         </Button>
-        <Button size='large' inverted color='red'>
+        <Button as={Link} to="/PlusMinus" size='large' inverted color='red'>
           Plus/Minus (+/-)
         </Button>
-        <Button size='large' inverted color='red'>
+        <Button as={Link} to="Passing" size='large' inverted color='red'>
           Passing Efficiency
         </Button>
         <Button size='large' inverted color='red'>

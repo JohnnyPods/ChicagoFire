@@ -1,7 +1,6 @@
 import React from 'react'
 import { Tab, Table, Icon } from 'semantic-ui-react'
 import './TeamCalendar.css';
-import GameVideo from '../GameVideoComponent/GameVideo';
 
 const panes = [
   { menuItem: 'September', render: () => <Tab.Pane>

@@ -2,31 +2,27 @@ import React from "react";
 import { Chart } from "react-google-charts";
 
 export const data = [
-    ["GAME", "PASS COMPLETION %","Team Average"],
-    ["Mission", .75, .50],
-    ["Storm", .20, .62],
-    ["TI", .58, .55],
-    ["TI", .62, .75],
-    ["HC of STL", .78, .80],
-    ["Storm", .90, .80,],
-    ["Reapers", .66, .55],
-    ["Reapers", .84, .39],
-    ["TI", .25, .80],
-    ["Storm", .44, .77],
-
+    ["GAME", "TURNOVER RATIO", "Team Average"],
+    ["Mission", 1.14, .58],
+    ["Storm", .98, 1],
+    ["TI", 1.33, .7],
+    ["TI", .63, 1.2],
+    ["HC of STL", .70, 1],
   ];
 
 export const options = {
+  seriesType: "bars",
+  series: { 1: { type: "line", color: 'green' }, 0: {color: 'red'} },
     chartArea: { 
         width: "90%",
         height: "60%",
-        left: 70,
         
      },
-     seriesType: "bars",
-     series: { 1: { type: "line", color: 'green' }, 0: {color: 'red'} },
+    isStacked: true,
     hAxis: {
       title: "GAME",
+      minValue: 0,
+      
       titleTextStyle:{
         color: 'white',
         bold: true,
@@ -40,10 +36,7 @@ export const options = {
     
     backgroundColor:'black',
     vAxis: {
-      title: "PASSING",
-      minValue: 0,
-      maxValue: 1,
-      format: 'percent',
+      title: "PLUS/MINUS",
       baselineColor:'white',
       minorGridlines:{color:'none'},
       gridlines:{color:'white'},
@@ -55,18 +48,17 @@ export const options = {
       textStyle:{
         color:'white',
         },
-  
     },
     legend:{
-        position:'top',
-        alignment: 'center',
-        textStyle:{
-            color: 'white',
-            bold: true,
-            fontSize: 25,
-    
-        },
-    },
+      position:'top',
+      alignment: 'center',
+      textStyle:{
+          color: 'white',
+          bold: true,
+          fontSize: 25,
+  
+      },
+      },
     titleTextStyle:{
         bold: true,
         fontSize: 22,
@@ -75,7 +67,7 @@ export const options = {
 
   };
 
-export function Passing() {
+export function Turnover() {
   return (
     <Chart 
     chartType="ComboChart" 

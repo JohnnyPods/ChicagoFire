@@ -2,22 +2,23 @@ import React from "react";
 import { Chart } from "react-google-charts";
 
 export const data = [
-    ["GAME", "Plus/Minus", { role: "style" }],
-    ["Mission", -1, "red"],
-    ["Storm", 5, "red"],
-    ["TI", 2, "red"],
-    ["TI", -3, "red"],
-    ["HC of STL", -2, "red"],
-    ["Storm", 2, "red"],
-    ["Reapers", 0, "red"],
-    ["Reapers", 2, "red"],
-    ["TI", 0, "red"],
-    ["Storm", 4, "red"],
+    ["GAME", "Plus/Minus", "Team Average"],
+    ["Mission", -1, 0],
+    ["Storm", 5, 2],
+    ["TI", 2, 0],
+    ["TI", -3, -1],
+    ["HC of STL", -2, 1],
+    ["Storm", 2, 4],
+    ["Reapers", 0, -2],
+    ["Reapers", 2, 1],
+    ["TI", 0, 0],
+    ["Storm", 4, 3],
 
   ];
 
 export const options = {
-    
+  seriesType: "bars",
+  series: { 1: { type: "line", color: 'green' }, 0: {color: 'red'} },
     chartArea: { 
         width: "90%",
         height: "60%",
@@ -56,7 +57,16 @@ export const options = {
         color:'white',
         },
     },
-    legend: 'none',
+    legend:{
+      position:'top',
+      alignment: 'center',
+      textStyle:{
+          color: 'white',
+          bold: true,
+          fontSize: 25,
+  
+      },
+      },
     titleTextStyle:{
         bold: true,
         fontSize: 22,
@@ -68,7 +78,7 @@ export const options = {
 export function PlusMinus() {
   return (
     <Chart 
-    chartType="ColumnChart" 
+    chartType="ComboChart" 
     width="100%" 
     height="600px" 
     data={data}

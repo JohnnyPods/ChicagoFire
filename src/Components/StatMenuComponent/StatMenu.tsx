@@ -52,7 +52,7 @@ const ButtonContainer = (text:string) => {
         <Button as={Link} to="Passing" size='large' inverted color='red'>
           Passing Efficiency
         </Button>
-        <Button size='large' inverted color='red'>
+        <Button as={Link} to="Turnover" size='large' inverted color='red'>
           Turnover Ratio
         </Button>
 </Seg>

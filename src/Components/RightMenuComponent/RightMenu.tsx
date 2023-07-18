@@ -8,6 +8,7 @@ import { Faceoff } from '../FaceoffComponent/Faceoff';
 import { Points } from '../PointsComponent/Points';
 import { PlusMinus } from '../PlusMinusComponent/PlusMinus';
 import { Passing } from '../PassingComponent/Passing';
+import { Turnover } from '../TurnoverComponent/Turnover';
 
 
 
@@ -24,6 +25,7 @@ export const RightMenu = () => {
           <Route path="/Points" element={<Points/>}/>
           <Route path="/PlusMinus" element={<PlusMinus/>}/>
           <Route path="/Passing" element={<Passing/>}/>
+          <Route path="/Turnover" element={<Turnover/>}/>
          </Routes>
         </div>
 

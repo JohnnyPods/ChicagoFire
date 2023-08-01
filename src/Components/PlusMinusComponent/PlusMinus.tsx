@@ -42,17 +42,11 @@ export const options = {
     
     backgroundColor:'black',
     vAxis: {
-      title: "PLUS/MINUS",
       minValue: -4,
       maxValue: 4,
       baselineColor:'white',
       minorGridlines:{color:'none'},
       gridlines:{color:'white'},
-      titleTextStyle:{
-        color: 'white',
-        bold: true,
-        fontSize: 25,
-      },
       textStyle:{
         color:'white',
         },

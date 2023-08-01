@@ -2,27 +2,26 @@ import React from "react";
 import { Chart } from "react-google-charts";
 
 export const data = [
-    ["GAME", "TURNOVER RATIO", "Team Average"],
-    ["Mission", 1.14, .58],
-    ["Storm", .98, 1],
-    ["TI", 1.33, .7],
-    ["TI", .63, 1.2],
-    ["HC of STL", .70, 1],
+    ["Scenario", "%"],
+    ["OVERALL", .2325],
+    ["5v4", .2022],
+    ["5v3", .3860],
+    ["4v3", .2510],
+
   ];
 
+
 export const options = {
-  seriesType: "bars",
-  series: { 1: { type: "line", color: 'green' }, 0: {color: 'red'} },
     chartArea: { 
         width: "90%",
         height: "60%",
+        left: 70,
         
      },
-    isStacked: true,
+     seriesType: "bars",
+     series: {0: {color: 'red'} },
     hAxis: {
-      title: "GAME",
-      minValue: 0,
-      
+      title: "POWER PLAY %",
       titleTextStyle:{
         color: 'white',
         bold: true,
@@ -36,23 +35,19 @@ export const options = {
     
     backgroundColor:'black',
     vAxis: {
-      baselineColor:'white',
+      minValue: 0,
+      format: 'percent',
+      baselineColor:'White',
       minorGridlines:{color:'none'},
       gridlines:{color:'white'},
       textStyle:{
         color:'white',
         },
+  
     },
     legend:{
-      position:'top',
-      alignment: 'center',
-      textStyle:{
-          color: 'white',
-          bold: true,
-          fontSize: 25,
-  
-      },
-      },
+        position:'none',
+    },
     titleTextStyle:{
         bold: true,
         fontSize: 22,
@@ -61,10 +56,10 @@ export const options = {
 
   };
 
-export function Turnover() {
+export function PPGraph() {
   return (
     <Chart 
-    chartType="ComboChart" 
+    chartType="ColumnChart" 
     width="100%" 
     height="600px" 
     data={data}

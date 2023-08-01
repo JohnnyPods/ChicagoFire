@@ -40,18 +40,12 @@ export const options = {
     
     backgroundColor:'black',
     vAxis: {
-      title: "PASSING",
       minValue: 0,
       maxValue: 1,
       format: 'percent',
       baselineColor:'white',
       minorGridlines:{color:'none'},
       gridlines:{color:'white'},
-      titleTextStyle:{
-        color: 'white',
-        bold: true,
-        fontSize: 25,
-      },
       textStyle:{
         color:'white',
         },

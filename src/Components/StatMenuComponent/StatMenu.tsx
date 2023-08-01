@@ -23,28 +23,20 @@ const ButtonContainer = (text:string) => {
     <div>
 
 <Seg size = "massive" inverted>
-         Team Stats
         <Button as={Link} to="/Calendar" size='large' inverted color='red' >
          Team Schedule
         </Button>
-        <Button as  ={Link} to="Stats" size='large' inverted color='red'>
+        <Button as  ={Link} to="/Stats" size='large' inverted color='red'>
           Team Statistics
         </Button>
-        <Button size='large' inverted color='red'>
+        {/* <Button size='large' inverted color='red'>
           Shot Map
         </Button>
         <Button size='large' inverted color='red'>
           Goaltending
-        </Button>
-
-</Seg>
-<Seg size = "massive" inverted>
-        Player Stats
+        </Button> */}
         <Button as={Link} to="/Face-off" size='large' inverted color='red'>
           Face-Offs
-        </Button>
-        <Button as={Link} to="/Points" size='large' inverted color='red'>
-          Points
         </Button>
         <Button as={Link} to="/PlusMinus" size='large' inverted color='red'>
           Plus/Minus (+/-)

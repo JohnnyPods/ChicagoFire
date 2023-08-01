@@ -2,32 +2,26 @@ import React from "react";
 import { Chart } from "react-google-charts";
 
 export const data = [
-    ["GAME", "GOALS", "ASSISTS"],
-    ["Mission", 1, 1],
-    ["Storm", 0, 3],
-    ["TI", 2, 2],
-    ["TI", 0, 1],
-    ["HC of STL", 1, 0],
-    ["Storm", 2, 1],
-    ["Reapers", 0, 2],
-    ["Reapers", 2, 0],
-    ["TI", 0, 0],
-    ["Storm", 4, 1],
+    ["Scenario", "%"],
+    ["OVERALL", .8867],
+    ["5v4", .9112],
+    ["5v3", .7554],
+    ["4v3", .9034]
 
   ];
 
+
 export const options = {
-    
     chartArea: { 
         width: "90%",
         height: "60%",
+        left: 70,
         
      },
-    isStacked: true,
+     seriesType: "bars",
+     series: {0: {color: 'red'} },
     hAxis: {
-      title: "GAME",
-
-      
+      title: "PENALTY KILL %",
       titleTextStyle:{
         color: 'white',
         bold: true,
@@ -41,28 +35,18 @@ export const options = {
     
     backgroundColor:'black',
     vAxis: {
-      title: "POINTS",
+      minValue: 0,
+      format: 'percent',
       baselineColor:'white',
       minorGridlines:{color:'none'},
       gridlines:{color:'white'},
-      titleTextStyle:{
-        color: 'white',
-        bold: true,
-        fontSize: 25,
-      },
       textStyle:{
         color:'white',
         },
+  
     },
     legend:{
-    position:'top',
-    alignment: 'center',
-    textStyle:{
-        color: 'white',
-        bold: true,
-        fontSize: 25,
-
-    },
+        position:'none',
     },
     titleTextStyle:{
         bold: true,
@@ -72,7 +56,7 @@ export const options = {
 
   };
 
-export function Points() {
+export function PKGraph() {
   return (
     <Chart 
     chartType="ColumnChart" 

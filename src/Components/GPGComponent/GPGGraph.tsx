@@ -2,27 +2,24 @@ import React from "react";
 import { Chart } from "react-google-charts";
 
 export const data = [
-    ["GAME", "TURNOVER RATIO", "Team Average"],
-    ["Mission", 1.14, .58],
-    ["Storm", .98, 1],
-    ["TI", 1.33, .7],
-    ["TI", .63, 1.2],
-    ["HC of STL", .70, 1],
+    ["Scenario", "%"],
+    ["Un-Assisted", .58],
+    ["Primary Assist", .26],
+    ["Secondary Assist", .14]
+
   ];
 
+
 export const options = {
-  seriesType: "bars",
-  series: { 1: { type: "line", color: 'green' }, 0: {color: 'red'} },
     chartArea: { 
         width: "90%",
         height: "60%",
-        
+        left: 70,
      },
-    isStacked: true,
+     seriesType: "bars",
+     series: {0: {color: 'red'} },
     hAxis: {
-      title: "GAME",
-      minValue: 0,
-      
+      title: "SCORING BREAKDOWN",
       titleTextStyle:{
         color: 'white',
         bold: true,
@@ -31,11 +28,11 @@ export const options = {
       textStyle:{
       color:'white',
       },
-     
     },
-    
     backgroundColor:'black',
     vAxis: {
+      minValue: 0,
+      format: 'percent',
       baselineColor:'white',
       minorGridlines:{color:'none'},
       gridlines:{color:'white'},
@@ -44,27 +41,19 @@ export const options = {
         },
     },
     legend:{
-      position:'top',
-      alignment: 'center',
-      textStyle:{
-          color: 'white',
-          bold: true,
-          fontSize: 25,
-  
-      },
-      },
+        position:'none',
+    },
     titleTextStyle:{
         bold: true,
         fontSize: 22,
         color: 'white',
       },
-
   };
 
-export function Turnover() {
+export function GPGGraph() {
   return (
     <Chart 
-    chartType="ComboChart" 
+    chartType="ColumnChart" 
     width="100%" 
     height="600px" 
     data={data}

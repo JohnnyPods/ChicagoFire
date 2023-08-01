@@ -2,22 +2,21 @@ import React from 'react';
 import { useState } from 'react';
 import { Button, Segment } from 'semantic-ui-react'
 import styled from 'styled-components'
-import './TeamInfo.css';
+import '../TeamInfoComponent/TeamInfo.css'
 
 const Seg = styled(Segment)`
 display: flex;
 flex-direction: column;
-gap: 20px;
 `;
 
-const TeamInfo = () => (
-  <div className='TeamInfo'>
+
+const TeamRecord = () => (
+  <div className='TeamRecord'>
 
     <Seg size='medium' inverted>
-        <h1 className='Title'>2015 CHICAGO FIRE HOCKEY TEAM</h1>
+        <h1 className='Title'>TEAM RECORD 0-0-0</h1>
     </Seg>
   </div>
   )
   
-  export default TeamInfo
-
+  export default TeamRecord

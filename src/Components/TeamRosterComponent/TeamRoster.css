@@ -1,0 +1,13 @@
+.name{
+    font-size: large;
+}
+.info{
+    font-size: medium;
+}
+.stats{
+    font-size: large;
+    color: black;
+}
+.roster{
+    padding-top: 5px;
+}

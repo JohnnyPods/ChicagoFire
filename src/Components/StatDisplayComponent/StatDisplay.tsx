@@ -83,9 +83,6 @@ function StatDisplay() {
   function changeSort(key: SortKeys) {
     setSortOrder(sortOrder === "ascn" ? "desc" : "ascn");
 
-
-    
-
     setSortKey(key);
   }
 

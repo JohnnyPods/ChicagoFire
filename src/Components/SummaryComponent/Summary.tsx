@@ -1,11 +1,17 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Segment, Image } from 'semantic-ui-react'
 import image from '/Users/johnpod/ReactProject/my-app/src/Components/ModalComponent/fireteam.jpeg'
 import './Summary.css';
+import { CurrentGame } from '../../Context';
 
 
-const Summary = () => (
-  <>
+
+const Summary = () => {
+  
+  const {currgame} = useContext(CurrentGame)
+
+  return(
+    <>
     <Image src={image} size='medium' floated='left' />
     <h1 className='Summary'>Opening Day Victory For The 2015's</h1>
     <br/>
@@ -23,7 +29,8 @@ const Summary = () => (
             an empty net goal and hat trick for Hollingsworth. Always nice to kick off the season with a win, and something for this group to build off
             of, see you next weekend for the double header against Mission.
           </p>
-  </>
-)
+          </>
+  )
+  }
 
 export default Summary

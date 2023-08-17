@@ -1,5 +1,21 @@
 {"Player":
 [
+  {
+    "Number":"7",
+    "Name":"Salvi Caruso",
+    "Goals":"-",
+    "Assists":"-",
+    "Points":"-",
+    "PlusMinus":"-",
+    "SOG":"-",
+    "PIM":"-",
+    "Blocks":"-",
+    "Takeaways":"-",
+    "Giveaways":"-",
+    "FaceoffWins":"-",
+    "FaceoffLoss":"-",
+    "FaceoffPercentage":"-"
+  },
 {
   "Number":"14",
   "Name":"Waylon Foyt",
@@ -161,6 +177,22 @@
     "FaceoffPercentage":"-"
   },
   {
+    "Number":"91",
+    "Name":"Marshall LaFrance",
+    "Goals":"-",
+    "Assists":"-",
+    "Points":"-",
+    "PlusMinus":"-",
+    "SOG":"-",
+    "PIM":"-",
+    "Blocks":"-",
+    "Takeaways":"-",
+    "Giveaways":"-",
+    "FaceoffWins":"-",
+    "FaceoffLoss":"-",
+    "FaceoffPercentage":"-"
+  },
+  {
     "Number":"93",
     "Name":"Steven Trafficanta",
     "Goals":"-",
@@ -196,15 +228,15 @@
 "Goalie":
 [
  {
-   "Number":"",
-   "Name":"",
-   "ShotsAgainst":"",
-   "GoalsAgainst":"",
-   "Saves":"",
-   "EvenStrength":"",
-   "PowerPlay":"",
-   "Shorthanded":"",
-   "SavePercentage":""
+   "Number":"29",
+   "Name":"Easton Goodfellow",
+   "ShotsAgainst":"-",
+   "GoalsAgainst":"-",
+   "Saves":"-",
+   "EvenStrength":"-",
+   "PowerPlay":"-",
+   "Shorthanded":"-",
+   "SavePercentage":"-"
  }   
 ]
 }

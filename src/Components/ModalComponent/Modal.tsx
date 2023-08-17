@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useContext, MouseEvent } from 'react'
 import { Button, Header, Image, Modal, Icon } from 'semantic-ui-react'
-import image from '/Users/johnpod/ReactProject/my-app/src/Components/ModalComponent/fireteam.jpeg'
 import Recap from '../RecapComponent/Recap';
+import { CurrentGame } from '../../Context';
 
-function StatModal() {
+
+
+function StatModal({gameID}: {gameID:string}){
   const [open, setOpen] = React.useState(false)
+  const {currgame, setCurrGame} = useContext(CurrentGame)
 
   return (
     <Modal
@@ -12,14 +15,20 @@ function StatModal() {
       onOpen={() => setOpen(true)}
       open={open}
       size={'large'}
-      trigger={<Button compact color='red' inverted>
+      trigger={
+      <Button 
+      compact 
+      onClick= {() => setCurrGame(gameID)} 
+      color='red' 
+      inverted>
+        
         <Icon 
         fitted
         name='newspaper' 
         size='large' 
         color='red'/>
-        </Button>}
-    >
+        </Button>}>
+        
       <Modal.Content>
         <><Recap/></>
       </Modal.Content>

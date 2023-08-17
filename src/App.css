@@ -1,8 +1,6 @@
 .App {
-
   text-align: center;
   background-color: black; 
   display: flex;
-  color:aliceblue;
-  height: 100vh;
+  height: 1300px;
 }

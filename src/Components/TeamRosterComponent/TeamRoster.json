@@ -1,0 +1,185 @@
+{"Player":
+[
+{
+"image":"fire",
+"name":"Salvi Caruso",
+"favoriteplayer":"", 
+"profile":"/Salvi", 
+"number":"#7",
+"favoriteteam":"",
+"favoritefood":"",
+"handed":"",
+"birthyear":"",
+"position":""
+},
+{
+"image":"image12",
+"name":"Waylon Foyt",
+"favoriteplayer":"",
+"profile":"/Waylon", 
+"number":"#14",
+"favoriteteam":"",
+"favoritefood":"",
+"handed":"",
+"birthyear":"",
+"position":""
+},
+{
+"image":"image9",
+"name":"Mason Perry",
+"favoriteplayer":"" ,
+"profile":"/Mason", 
+"number":"#15" ,
+"favoriteteam":"",
+"favoritefood":"",
+"handed":"",
+"birthyear":"",
+"position":""
+},
+{
+"image":"image6",
+"name":"Gunnar Weissenhofer",
+"favoriteplayer":"",
+"profile":"/Gunnar", 
+"number":"#19",
+"favoriteteam":"",
+"favoritefood":"",
+"handed":"",
+"birthyear":"",
+"position":""  
+},
+{
+"image":"image5",
+"name":"Grayson Smith",
+"favoriteplayer":"",
+"profile":"/Grayson", 
+"number":"#21",
+"favoriteteam":"",
+"favoritefood":"",
+"handed":"",
+"birthyear":"",
+"position":""  
+},  
+{
+"image":"image10",
+"name":"Owen Borner",
+"favoriteplayer":"",
+"profile":"/Owen", 
+"number":"#22",
+"favoriteteam":"",
+"favoritefood":"",
+"handed":"",
+"birthyear":"",
+"position":""    
+},
+{
+"image":"image4",
+"name":"Everett Hollingsworth",
+"favoriteplayer":"",
+"profile":"/Everett", 
+"number":"#23",
+"favoriteteam":"",
+"favoritefood":"",
+"handed":"",
+"birthyear":"",
+"position":""    
+},
+{
+"image":"image8",
+"name":"Julian Scanlon",
+"favoriteplayer":"",
+"profile":"/Julian", 
+"number":"#27",
+"favoriteteam":"",
+"favoritefood":"",
+"handed":"",
+"birthyear":"",
+"position":""    
+},
+{
+"image":"image13",
+"name":"Easton Goodfellow",
+"favoriteplayer":"",
+"profile":"/Easton", 
+"number":"#29",
+"favoriteteam":"",
+"favoritefood":"",
+"handed":"",
+"birthyear":"",
+"position":""    
+},
+{
+"image":"image3",
+"name":"Emerson Fina",
+"favoriteplayer":"",
+"profile":"/Emerson", 
+"number":"#44",
+"favoriteteam":"",
+"favoritefood":"",
+"handed":"",
+"birthyear":"",
+"position":""    
+},
+{
+"image":"image1",
+"name":"Cade Gutkowski",
+"favoriteplayer":"",
+"profile":"/Cade", 
+"number":"#47",
+"favoriteteam":"",
+"favoritefood":"",
+"handed":"",
+"birthyear":"",
+"position":""    
+},
+{
+"image":"image2",
+"name":"Colton Podgurski",
+"favoriteplayer":"Mario Lemieux",
+"profile":"/Colton", 
+"number":"#66",
+"favoriteteam":"Edmonton Oilers",
+"favoritefood":"Filet Mignon",
+"handed":"Left",
+"birthyear":"2015",
+"position":"Forward"    
+},
+{
+"image":"fire",
+"name":"Marshall LaFrance",
+"favoriteplayer":"",
+"profile":"/Marshall", 
+"number":"#91",
+"favoriteteam":"",
+"favoritefood":"",
+"handed":"",
+"birthyear":"",
+"position":""    
+},
+{
+"image":"image11",
+"name":"Steven Trafficanta",
+"favoriteplayer":"",
+"profile":"/Steven", 
+"number":"#93",
+"favoriteteam":"",
+"favoritefood":"",
+"handed":"",
+"birthyear":"",
+"position":""    
+},
+{
+"image":"image7",
+"name":"Jack Perna",
+"favoriteplayer":"",
+"profile":"/Jack", 
+"number":"#98",
+"favoriteteam":"",
+"favoritefood":"",
+"handed":"",
+"birthyear":"",
+"position":""    
+}                            
+
+]
+}

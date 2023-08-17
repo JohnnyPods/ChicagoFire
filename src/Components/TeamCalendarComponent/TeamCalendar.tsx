@@ -17,6 +17,7 @@ export const TeamCalendar = () => {
   }
 
   const panes = [
+
     { menuItem: "August", render: () => <Tab.Pane>
     <Table size='small' color='red' compact='very'>
   <Table.Header>
@@ -40,7 +41,7 @@ export const TeamCalendar = () => {
       <Table.Cell>{game.Time}</Table.Cell>
       <Table.Cell>{game.Location}</Table.Cell>
       <Table.Cell>{game.Score}</Table.Cell>
-      <Table.Cell><StatModal/></Table.Cell>
+      <Table.Cell><StatModal gameID={game.ID}/></Table.Cell>
       <Table.Cell><GameVideo/></Table.Cell> 
     </Table.Row>
     </>)})}
@@ -72,7 +73,7 @@ export const TeamCalendar = () => {
           <Table.Cell>{game.Time}</Table.Cell>
           <Table.Cell>{game.Location}</Table.Cell>
           <Table.Cell>{game.Score}</Table.Cell>
-          <Table.Cell><StatModal/></Table.Cell>
+          <Table.Cell><StatModal gameID={game.ID}/></Table.Cell>
           <Table.Cell><GameVideo/></Table.Cell> 
         </Table.Row>
         </>)})}
@@ -104,7 +105,7 @@ export const TeamCalendar = () => {
       <Table.Cell>{game.Time}</Table.Cell>
       <Table.Cell>{game.Location}</Table.Cell>
       <Table.Cell>{game.Score}</Table.Cell>
-      <Table.Cell><StatModal/></Table.Cell>
+      <Table.Cell><StatModal gameID={game.ID}/></Table.Cell>
       <Table.Cell><GameVideo/></Table.Cell> 
     </Table.Row>
     </>)})}
@@ -136,7 +137,7 @@ export const TeamCalendar = () => {
   <Table.Cell>{game.Time}</Table.Cell>
   <Table.Cell>{game.Location}</Table.Cell>
   <Table.Cell>{game.Score}</Table.Cell>
-  <Table.Cell><StatModal/></Table.Cell>
+  <Table.Cell><StatModal gameID={game.ID}/></Table.Cell>
   <Table.Cell><GameVideo/></Table.Cell> 
 </Table.Row>
 </>)})}
@@ -168,7 +169,7 @@ export const TeamCalendar = () => {
       <Table.Cell>{game.Time}</Table.Cell>
       <Table.Cell>{game.Location}</Table.Cell>
       <Table.Cell>{game.Score}</Table.Cell>
-      <Table.Cell><StatModal/></Table.Cell>
+      <Table.Cell><StatModal gameID={game.ID}/></Table.Cell>
       <Table.Cell><GameVideo/></Table.Cell> 
     </Table.Row>
     </>)})}
@@ -200,7 +201,7 @@ export const TeamCalendar = () => {
       <Table.Cell>{game.Time}</Table.Cell>
       <Table.Cell>{game.Location}</Table.Cell>
       <Table.Cell>{game.Score}</Table.Cell>
-      <Table.Cell><StatModal/></Table.Cell>
+      <Table.Cell><StatModal gameID={game.ID}/></Table.Cell>
       <Table.Cell><GameVideo/></Table.Cell> 
     </Table.Row>
     </>)})}
@@ -232,7 +233,7 @@ export const TeamCalendar = () => {
       <Table.Cell>{game.Time}</Table.Cell>
       <Table.Cell>{game.Location}</Table.Cell>
       <Table.Cell>{game.Score}</Table.Cell>
-      <Table.Cell><StatModal/></Table.Cell>
+      <Table.Cell><StatModal gameID={game.ID}/></Table.Cell>
       <Table.Cell><GameVideo/></Table.Cell> 
     </Table.Row>
     </>)})}
@@ -264,7 +265,7 @@ export const TeamCalendar = () => {
       <Table.Cell>{game.Time}</Table.Cell>
       <Table.Cell>{game.Location}</Table.Cell>
       <Table.Cell>{game.Score}</Table.Cell>
-      <Table.Cell><StatModal/></Table.Cell>
+      <Table.Cell><StatModal gameID={game.ID}/></Table.Cell>
       <Table.Cell><GameVideo/></Table.Cell> 
     </Table.Row>
     </>)})}

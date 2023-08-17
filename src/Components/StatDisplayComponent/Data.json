@@ -2,15 +2,15 @@
     {
     "player_number": 66,
     "player_name": "Colton Podgurski",
-    "games_played": "0",
-    "goals": "0",
-    "assists": "0",
-    "points": "0",
-    "plus_minus": "0",
-    "penalty_minutes": "0",
-    "shots": "0",
-    "shooting_percentage": "0",
-    "face_off": "0"
+    "games_played": "61",
+    "goals": "24",
+    "assists": "32",
+    "points": "56",
+    "plus_minus": "8",
+    "penalty_minutes": "4",
+    "shots": "50",
+    "shooting_percentage": "12%",
+    "face_off": "50%"
     },
     {
     "player_number": 47,
@@ -145,6 +145,32 @@
     {
     "player_number": 15,
     "player_name": "Mason Perry",
+    "games_played": "0",
+    "goals": "0",
+    "assists": "0",
+    "points": "0",
+    "plus_minus": "0",
+    "penalty_minutes": "0",
+    "shots": "0",
+    "shooting_percentage": "0",
+    "face_off": "0"
+    },
+    {
+    "player_number": 7,
+    "player_name": "Salvi Caruso",
+    "games_played": "0",
+    "goals": "0",
+    "assists": "0",
+    "points": "0",
+    "plus_minus": "0",
+    "penalty_minutes": "0",
+    "shots": "0",
+    "shooting_percentage": "0",
+    "face_off": "0"
+    },
+    {
+    "player_number": 91,
+    "player_name": "Marshall LaFrance",
     "games_played": "0",
     "goals": "0",
     "assists": "0",

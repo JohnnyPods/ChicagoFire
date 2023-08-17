@@ -1,0 +1,45 @@
+{"Player":
+[
+{"14":
+{ 
+"ID":"", 
+"Title":"",
+"Opponent": "Test",
+"Date": "9/1/2023",
+"Time": "3:30 PM",
+"Location": "Test Rink",
+"Score":"(W) 5-2"
+}
+}, 
+{"15":
+{    
+"Opponent": "Milwaukee Junior Admirals",
+"Date": "8/19/2023",
+"Time": "11:40 AM",
+"Location": "Arctic Ice Arena",
+"Score":""
+}}
+],
+"Game2":
+[
+{"14":
+{ 
+"ID":"", 
+"Title":"",
+"Opponent": "Test",
+"Date": "9/1/2023",
+"Time": "3:30 PM",
+"Location": "Test Rink",
+"Score":"(W) 5-2"
+}
+}, 
+{"15":
+{    
+"Opponent": "Milwaukee Junior Admirals",
+"Date": "8/19/2023",
+"Time": "11:40 AM",
+"Location": "Arctic Ice Arena",
+"Score":""
+}}
+]
+}

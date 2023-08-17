@@ -12,11 +12,11 @@ gap: 20px;
 
 const TeamInfo = () => (
   <div className='TeamInfo'>
-
-    <Seg size='medium' inverted>
+    <Seg size='small' inverted>
         <h1 className='Title'>2015 CHICAGO FIRE HOCKEY TEAM</h1>
     </Seg>
   </div>
+  
   )
   
   export default TeamInfo

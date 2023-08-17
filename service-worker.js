@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ChicagoFire/Home/precache-manifest.3c68f23b9633d0cae5cd1e9872da09d2.js"
+  "/ChicagoFire/precache-manifest.4d93456c1731b253e4059064acd39921.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/ChicagoFire/Home/index.html", {
+workbox.routing.registerNavigationRoute("/ChicagoFire/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });

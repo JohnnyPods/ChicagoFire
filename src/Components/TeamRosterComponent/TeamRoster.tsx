@@ -3,7 +3,7 @@ import { Card, Icon, Image, Placeholder, Grid, Item, List, Label } from 'semanti
 import Roster from "./TeamRoster.json";
 import { Link, Route, Routes } from "react-router-dom"
 import './TeamRoster.css';
-import image1 from 'my-app/src/Components/Images/blackCade.jpeg'
+import image1 from 'src/Components/Images/blackCade.jpeg'
 import image2 from 'my-app/src/Components/Images/squareColton.png'
 import image3 from 'my-app/src/Components/Images/blackEmerson.jpeg'
 import image4 from 'my-app/src/Components/Images/blackEverett.jpeg'

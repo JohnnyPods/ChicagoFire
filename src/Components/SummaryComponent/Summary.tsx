@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { Segment, Image } from 'semantic-ui-react'
-import image from '/my-app/src/Components/ModalComponent/fireteam.jpeg'
+import image from 'my-app/src/Components/ModalComponent/fireteam.jpeg'
 import './Summary.css';
 import { CurrentGame } from '../../Context';
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Image, Item, Grid, Icon } from 'semantic-ui-react'
 import './Footer.css'
-import fire from '/my-app/src/Components/TopLeftLogoComponent/fire.jpeg'
+import fire from 'my-app/src/Components/TopLeftLogoComponent/fire.jpeg'
 
 
 

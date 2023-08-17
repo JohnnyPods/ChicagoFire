@@ -1,7 +1,7 @@
 import React from 'react'
 import { Divider, Image, Segment, List } from 'semantic-ui-react'
 import './Home.css'
-import team from '/my-app/src/Components/Images/TeamPhoto.jpg'
+import team from 'my-app/src/Components/Images/TeamPhoto.jpg'
 import Footer from '../FooterComponent/Footer'
 
 

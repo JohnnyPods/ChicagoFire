@@ -59,7 +59,7 @@ const switchImages = (str:string) => {
 
 
 const TeamRoster = () => (
-
+  //switchImages(info.image)
   <div className='roster'>
     <TeamInfo/>
 
@@ -72,12 +72,12 @@ const TeamRoster = () => (
   <Card color='black'>
   
     <Image 
-    src={switchImages(info.image)}
+    src={fire}
     wrapped ui={false}
     />
     
   
-      <Label attached='top left' color='red' size='big'>
+      <Label attached='top left' color='red' size='large' horizontal>
         {info.number}
       </Label>
     

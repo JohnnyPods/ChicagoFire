@@ -81,7 +81,7 @@ function PlayerModal({playername, number, birthyear, player, team, food, shoot, 
         </Segment>
         </Modal.Header>
       <Modal.Content image>
-        <Image size='large' src={switchImages(image)} wrapped />
+        <Image size='large' src={fire} wrapped />
         <Modal.Description>
         <Grid columns='equal' inverted padded className='player' style={{ }}>
         <Grid.Row color='black' textAlign='center'>

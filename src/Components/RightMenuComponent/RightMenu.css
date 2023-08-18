@@ -1,10 +1,8 @@
 .RightMenu{
-    width: 98%;
+    width: 100%;
     background-color:#db2828;
     padding: 10px;
     position: absolute;
-    margin-right: 10px;
-    right: 0;
-    /*height: fit-content;*/
+    height: fit-content;
     
     }

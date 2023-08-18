@@ -19,7 +19,7 @@ import fire from '/Users/johnpod/FireSite/ChicagoFire/src/Components/TopLeftLogo
 const GameStars = () => (
  
  <div style={{display:'flex', flexDirection:'row', justifyContent:'center', gap:'40px', overflow:'hidden', padding:'10px'}}>
-<div>
+<Card.Group>
 <Card>
 <Image src={image4}/>
 <Card.Content>
@@ -29,8 +29,7 @@ const GameStars = () => (
   </Card.Description>
 </Card.Content>
 </Card>
-</div>
-<div>
+
 <Card>
 <Image src={image2}/>
 <Card.Content>
@@ -40,8 +39,7 @@ const GameStars = () => (
   </Card.Description>
 </Card.Content>
 </Card>
-</div>
-<div>
+
 <Card>
 <Image src={image1}/>
 <Card.Content>
@@ -51,7 +49,7 @@ const GameStars = () => (
   </Card.Description>
 </Card.Content>
 </Card>
-</div>
+</Card.Group>
 </div>
 )
 

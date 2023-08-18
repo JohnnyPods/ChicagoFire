@@ -1,21 +1,23 @@
 import React from 'react'
 import './PlayerModal.css'
 import { Button, Header, Image, Modal, Icon, Grid, Item, Segment, Label, List, Divider } from 'semantic-ui-react'
-import image1 from '/Users/johnpod/ReactProject/my-app/src/Components/Images/Cade.jpeg'
-import image2 from '/Users/johnpod/ReactProject/my-app/src/Components/Images/Colton.jpeg'
-import image3 from '/Users/johnpod/ReactProject/my-app/src/Components/Images/Emerson.jpeg'
-import image4 from '/Users/johnpod/ReactProject/my-app/src/Components/Images/Everett.jpeg'
-import image5 from '/Users/johnpod/ReactProject/my-app/src/Components/Images/Grayson.jpeg'
-import image6 from '/Users/johnpod/ReactProject/my-app/src/Components/Images/Gunnar.jpeg'
-import image7 from '/Users/johnpod/ReactProject/my-app/src/Components/Images/Jack.jpeg'
-import image8 from '/Users/johnpod/ReactProject/my-app/src/Components/Images/Julian.jpeg'
-import image9 from '/Users/johnpod/ReactProject/my-app/src/Components/Images/Mason.jpeg'
-import image10 from '/Users/johnpod/ReactProject/my-app/src/Components/Images/Owen.jpeg'
-import image11 from '/Users/johnpod/ReactProject/my-app/src/Components/Images/Steven.jpeg'
-import image12 from '/Users/johnpod/ReactProject/my-app/src/Components/Images/Waylon.jpeg'
-import image13 from '/Users/johnpod/ReactProject/my-app/src/Components/Images/Easton.jpeg'
-import stock from '/Users/johnpod/ReactProject/my-app/src/Components/Images/test.jpeg'
-import fire from '/Users/johnpod/ReactProject/my-app/src/Components/TopLeftLogoComponent/fire.jpeg'
+import image1 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/Cade.jpeg'
+import image2 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/Colton.jpeg'
+import image3 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/Emerson.jpeg'
+import image4 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/Everett.jpeg'
+import image5 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/Grayson.jpeg'
+import image6 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/Gunnar.jpeg'
+import image7 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/Jack.jpeg'
+import image8 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/Julian.jpeg'
+import image9 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/Mason.jpeg'
+import image10 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/Owen.jpeg'
+import image11 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/Steven.jpeg'
+import image12 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/Waylon.jpeg'
+import image13 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/Easton.jpeg'
+import stock from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/test.jpeg'
+import fire from '/Users/johnpod/FireSite/ChicagoFire/src/Components/TopLeftLogoComponent/fire.jpeg'
+
+
 
 const switchImages = (str:string) => {
     switch(str){
@@ -66,8 +68,9 @@ function PlayerModal({playername, number, birthyear, player, team, food, shoot, 
       <Button 
       size='large'
       compact 
+      fluid
       color='black'>
-        {playername}
+        <span className='playerName'>{playername}</span>
         </Button>}>
        
         <Modal.Header className='name'>

@@ -1,6 +1,7 @@
 .Welcome{
-    font-size: 60px;
+    font-size: 50px;
     color: red;
+    line-height: 1;
 }
 
 .description{

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Icon, Image, Item, Label, Grid, Segment, Divider, List } from 'semantic-ui-react'
 import './Coaches.css';
-import fire from '/Users/johnpod/ReactProject/my-app/src/Components/Images/fire.jpeg'
+import fire from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/fire.jpeg'
 
 
 
@@ -18,7 +18,7 @@ const Coaches = () => (
         <br></br>
         <Item.Description>
       
-    <Grid columns={2} relaxed='very'>
+    <Grid columns={2} relaxed='very' doubling>
       <Grid.Column>
         <Item.Header as='H1'>Playing Accomplishments</Item.Header>
       <List bulleted relaxed as='H3'>

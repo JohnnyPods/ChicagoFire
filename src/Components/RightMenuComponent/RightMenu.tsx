@@ -21,7 +21,6 @@ export const RightMenu = () => {
          <StatMenu/>
          
          <Routes>
-          <Route path="/" element={<TeamStats/>}/>
           <Route path="/Calendar" element={<TeamCalendar/>}/>
           <Route path="/Stats" element={<StatDisplay/>}/>
           <Route path="/Face-off" element={<Faceoff/>}/>
@@ -30,7 +29,7 @@ export const RightMenu = () => {
           <Route path="/Turnover" element={<Turnover/>}/>
           <Route path="/TeamRoster" element={<TeamRoster/>}/>
           <Route path="/Coaches" element={<Coaches/>}/>
-          <Route path="/Home" element={<Home/>}/>
+          <Route path="/ChicagoFire" element={<Home/>}/>
          </Routes>
         </div>
 

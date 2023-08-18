@@ -23,18 +23,18 @@ const ButtonContainer = (text:string) => {
     <div className='options'>
 
 <Seg size = "small" inverted>
-      <ButtonGroup widths={4} >
-      <Button  as={Link} to="/Home" size='massive' inverted color='red'>
-          Home
+      <ButtonGroup widths={4} compact >
+      <Button  as={Link} to="ChicagoFire" size='massive' inverted color='red'>
+          <h1 className='HomeButton'>Home</h1>
         </Button>
         <Button as={Link} to="/TeamRoster" size='massive' inverted color='red'>
-         Team Roster
+         <h1 className='HomeButton'>Roster</h1>
         </Button>
         <Button as={Link} to="/Coaches" size='massive' inverted color='red'>
-          Coaches
+          <h1 className='HomeButton'>Coaches</h1>
         </Button>
         <Button as={Link} to="/Calendar" size='massive' inverted color='red' >
-         Team Schedule
+         <h1 className='HomeButton'>Schedule</h1>
         </Button>
 
 

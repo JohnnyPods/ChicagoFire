@@ -3,21 +3,21 @@ import { Card, Icon, Image, Placeholder, Grid, Item, List, Label } from 'semanti
 import Roster from "./TeamRoster.json";
 import { Link, Route, Routes } from "react-router-dom"
 import './TeamRoster.css';
-import image1 from '/Users/johnpod/ReactProject/my-app/src/Components/Images/blackCade.jpeg'
-import image2 from '/Users/johnpod/ReactProject/my-app/src/Components/Images/squareColton.png'
-import image3 from '/Users/johnpod/ReactProject/my-app/src/Components/Images/blackEmerson.jpeg'
-import image4 from '/Users/johnpod/ReactProject/my-app/src/Components/Images/blackEverett.jpeg'
-import image5 from '/Users/johnpod/ReactProject/my-app/src/Components/Images/blackGrayson.jpeg'
-import image6 from '/Users/johnpod/ReactProject/my-app/src/Components/Images/blackGunnar.jpeg'
-import image7 from '/Users/johnpod/ReactProject/my-app/src/Components/Images/blackJack.jpeg'
-import image8 from '/Users/johnpod/ReactProject/my-app/src/Components/Images/blackJulian.jpeg'
-import image9 from '/Users/johnpod/ReactProject/my-app/src/Components/Images/blackMason.jpeg'
-import image10 from '/Users/johnpod/ReactProject/my-app/src/Components/Images/blackOwen.jpeg'
-import image11 from '/Users/johnpod/ReactProject/my-app/src/Components/Images/blackSteven.jpeg'
-import image12 from '/Users/johnpod/ReactProject/my-app/src/Components/Images/blackWaylon.jpeg'
-import image13 from '/Users/johnpod/ReactProject/my-app/src/Components/Images/blackEaston.jpeg'
-import stock from '/Users/johnpod/ReactProject/my-app/src/Components/Images/test.jpeg'
-import fire from '/Users/johnpod/ReactProject/my-app/src/Components/TopLeftLogoComponent/fire.jpeg'
+import image1 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/blackCade.jpeg'
+import image2 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/squareColton.png'
+import image3 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/blackEmerson.jpeg'
+import image4 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/blackEverett.jpeg'
+import image5 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/blackGrayson.jpeg'
+import image6 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/blackGunnar.jpeg'
+import image7 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/blackJack.jpeg'
+import image8 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/blackJulian.jpeg'
+import image9 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/blackMason.jpeg'
+import image10 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/blackOwen.jpeg'
+import image11 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/blackSteven.jpeg'
+import image12 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/blackWaylon.jpeg'
+import image13 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/blackEaston.jpeg'
+import stock from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/test.jpeg'
+import fire from '/Users/johnpod/FireSite/ChicagoFire/src/Components/TopLeftLogoComponent/fire.jpeg'
 import PlayerModal
  from '../PlayerModalComponent/PlayerModal';
 import TeamInfo from '../TeamInfoComponent/TeamInfo';
@@ -63,7 +63,7 @@ const TeamRoster = () => (
   <div className='roster'>
     <TeamInfo/>
 
-    <Card.Group itemsPerRow={5}>
+    <Card.Group itemsPerRow={3}>
       
   {Roster.Player.map(info =>{
   

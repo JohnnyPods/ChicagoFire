@@ -17,7 +17,7 @@ export const TeamCalendar = () => {
   }
 
   const panes = [
-
+   
     { menuItem: "August", render: () => <Tab.Pane>
     <Table size='small' color='red' compact='very'>
   <Table.Header>

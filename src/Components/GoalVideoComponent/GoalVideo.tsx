@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button, Modal, Icon, Embed } from 'semantic-ui-react'
-import image from '/Users/johnpod/ReactProject/my-app/src/Components/TopLeftLogoComponent/fire.jpeg'
+import image from '/Users/johnpod/FireSite/ChicagoFire/src/Components/TopLeftLogoComponent/fire.jpeg'
 import './GoalVideo.css'
 
 function GoalVideo() {

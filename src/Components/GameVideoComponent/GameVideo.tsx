@@ -2,7 +2,7 @@ import React from 'react'
 import { Button, Image, Modal, Icon, Embed } from 'semantic-ui-react'
 import fire from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/fire.jpeg'
 
-function GameVideo() {
+function GameVideo({gamevid}: {gamevid:string}) {
   const [open, setOpen] = React.useState(false)
 
   return (
@@ -22,7 +22,7 @@ function GameVideo() {
       <Embed
         autoplay={true}
         hd={true}
-        id='CcHgfQac9ow'
+        id={gamevid}
         placeholder={fire}
         source='youtube'
   />

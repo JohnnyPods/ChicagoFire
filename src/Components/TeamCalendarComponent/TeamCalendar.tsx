@@ -42,7 +42,7 @@ export const TeamCalendar = () => {
       <Table.Cell>{game.Location}</Table.Cell>
       <Table.Cell>{game.Score}</Table.Cell>
       <Table.Cell>{game.ID !== "" && (<StatModal gameID={game.ID}/>)}</Table.Cell>
-      <Table.Cell>{game.ID !== "" && (<GameVideo/>)}</Table.Cell> 
+      <Table.Cell>{game.GameVideo !== "" && (<GameVideo gamevid={game.GameVideo}/>)}</Table.Cell> 
     </Table.Row>
     </>)})}
   </Table.Body>

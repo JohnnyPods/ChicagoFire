@@ -1,5 +1,5 @@
 import React from 'react'
-import { Divider, Image, Segment, List } from 'semantic-ui-react'
+import { Divider, Image, Segment, List, Grid, GridColumn } from 'semantic-ui-react'
 import './Home.css'
 import team from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/TeamPhoto.jpg'
 import Footer from '../FooterComponent/Footer'
@@ -34,18 +34,27 @@ const Home = () => (
     Our belief and core principals are centered on being a well-rounded athlete, strong skater, and team first player to 
     enhance the quality of team play and the love and passion for the game of hockey. 
     </span>
+    <Divider inverted section/>
 
+    <Grid columns={2} relaxed='very' doubling className='features'>
+      <Grid.Column>
     <List bulleted relaxed>
       <List.Item>A minimum of (3) 1 hr. 20 min ice touches per week</List.Item>
       <List.Item>Off ice and personal training sessions with Jeff Blindauer</List.Item>
       <List.Item>3+ High Level coaches at every practice </List.Item>
+      </List>
+      </Grid.Column>
+      <GridColumn>
+      <List bulleted relaxed>
       <List.Item>Skating evaluations and instruction by Jill Karsten</List.Item>
       <List.Item>Weekly Goalie instruction and training with Zack Drane </List.Item>
       <List.Item>Off ice shooting sessions on synthetic ice</List.Item>
       </List>
-
-
+      </GridColumn>
+    </Grid>
+    <br></br>
   </Segment>
+  
   <Footer/>
   </div>
 )

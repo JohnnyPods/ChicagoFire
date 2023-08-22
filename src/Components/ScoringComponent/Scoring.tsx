@@ -18,6 +18,37 @@ import image12 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/W
 import image13 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/Easton.jpeg'
 import GoalVideo from '../GoalVideoComponent/GoalVideo'
 
+const switchImages = (str:string) => {
+  switch(str){
+    case "image1":
+      return image1
+    case "image2":
+      return image2
+    case "image3":
+      return image3
+    case "image4":
+      return image4
+    case "image5":
+      return image5
+    case "image6":
+      return image6
+    case "image7":
+      return image7
+    case "image8":
+      return image8
+    case "image9":
+      return image9
+    case "image10":
+      return image10
+    case "image11":
+      return image11
+    case "image12":
+      return image12
+    case "image13":
+      return image13
+  }
+}
+
 
 const Scoring = () => (
 
@@ -25,51 +56,19 @@ const Scoring = () => (
 
 
   <Item.Group>
+
+{data.map(game => {
+    return( 
     <Item>
-      <Item.Image size='tiny' src={image6} circular />
+      <Item.Image size='tiny' src={switchImages(game.Image)} circular />
       <Item.Content verticalAlign='middle'>
-        <Item.Header>Weissenhofer (1)             
+        <Item.Header>{game.Scorer}             
         </Item.Header>   
-        <GoalVideo goalvid={"yqjddhedXcE"}/>         
-        <Item.Meta>Assists: LaFrance (1)</Item.Meta>
+        <GoalVideo goalvid={game.GoalVid}/>         
+        <Item.Meta>{game.Assists}</Item.Meta>
       </Item.Content>
     </Item>
-    <Item>
-      <Item.Image size='tiny' src={image11} circular />
-      <Item.Content verticalAlign='middle'>
-        <Item.Header>Trafficanta (1)             
-        </Item.Header>
-        <GoalVideo goalvid={"PtTH7tGUroo"}/>   
-        <Item.Meta>Assists: Hollinsgworth (1), Perry (1)</Item.Meta>
-      </Item.Content>
-    </Item>
-    <Item>
-      <Item.Image size='tiny' src={image1} circular />
-      <Item.Content verticalAlign='middle'>
-        <Item.Header>Gustkowski (1)              
-        </Item.Header>
-        <GoalVideo goalvid={"OxwS3ilQYeU"}/>   
-        <Item.Meta>Assists: Perry (2)</Item.Meta>       
-      </Item.Content>
-    </Item>
-    <Item>
-      <Item.Image size='tiny' src={image11} circular />
-      <Item.Content verticalAlign='middle'>
-        <Item.Header>Trafficanta (2)             
-        </Item.Header>
-        <GoalVideo goalvid={"JZWZqo5kvek"}/>   
-        <Item.Meta>Assists: Perna (1), LaFrance (2)</Item.Meta>       
-      </Item.Content>
-    </Item>
-    <Item>
-      <Item.Image size='tiny' src={image8} circular />
-      <Item.Content verticalAlign='middle'>
-        <Item.Header>Scanlon (1)              
-        </Item.Header>
-        <GoalVideo goalvid={"idafjY3HKUM"}/>   
-        <Item.Meta>Assists: Trafficanta (1), Perry (3)</Item.Meta>       
-      </Item.Content>
-    </Item>
+    )})}
   </Item.Group>
 )
 

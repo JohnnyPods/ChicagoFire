@@ -70,6 +70,7 @@ function PlayerModal({playername, number, birthyear, player, team, food, shoot, 
       compact 
       fluid
       color='black'>
+        
         <span className='playerName'>{playername}</span>
         </Button>}>
        

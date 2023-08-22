@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card, Icon, Image } from 'semantic-ui-react'
+import Data from "./GameStars.json"
 import image1 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/blackCade.jpeg'
 import image2 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/squareColton.png'
 import image3 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/blackEmerson.jpeg'
@@ -16,39 +17,59 @@ import image13 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/b
 import stock from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/test.jpeg'
 import fire from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/fire.jpeg'
 
+
+
+const switchImages = (str:string) => {
+  switch(str){
+    case "image1":
+      return image1
+    case "image2":
+      return image2
+    case "image3":
+      return image3
+    case "image4":
+      return image4
+    case "image5":
+      return image5
+    case "image6":
+      return image6
+    case "image7":
+      return image7
+    case "image8":
+      return image8
+    case "image9":
+      return image9
+    case "image10":
+      return image10
+    case "image11":
+      return image11
+    case "image12":
+      return image12
+    case "image13":
+      return image13
+    case "fire":
+      return fire
+  }
+}
+
 const GameStars = () => (
  
  <div style={{display:'flex', flexDirection:'row', justifyContent:'center', gap:'40px', overflow:'hidden', padding:'10px'}}>
+
 <Card.Group>
-<Card>
-<Image src={image8}/>
-<Card.Content textAlign='center'>
-  <Card.Header >Julian Scanlon</Card.Header>
-  <Card.Description>
-    GWG
-  </Card.Description>
-</Card.Content>
-</Card>
 
+  {Data.map(game => {
+    return(  
 <Card>
-<Image src={image13}/>
+<Image src={switchImages(game.Image)}/>
 <Card.Content textAlign='center'>
-  <Card.Header >Easton Goodfellow</Card.Header>
+  <Card.Header >{game.Player}</Card.Header>
   <Card.Description>
-    19-23 Saves  .826 SV% 
+    {game.Stat}
   </Card.Description>
 </Card.Content>
 </Card>
-
-<Card>
-<Image src={image9}/>
-<Card.Content textAlign='center'>
-  <Card.Header>Mason Perry</Card.Header>
-  <Card.Description>
-    3 Assists
-  </Card.Description>
-</Card.Content>
-</Card>
+)})}
 </Card.Group>
 </div>
 )

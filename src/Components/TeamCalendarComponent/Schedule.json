@@ -7,7 +7,8 @@
 "Date": "8/19/2023",
 "Time": "11:40 AM",
 "Location": "Arctic Ice Arena",
-"Score":"5-4 (W)"
+"Score":"5-4 (W)",
+"GameVideo":"CcHgfQac9ow"
 },
  
 {
@@ -16,7 +17,8 @@
 "Date": "9/2/2023",
 "Time": "11:00 AM",
 "Location": "Maryville University Hockey Center",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 {
 "ID":"",     
@@ -24,7 +26,8 @@
 "Date": "9/2/2023",
 "Time": "4:40 PM",
 "Location": "Maryville University Hockey Center",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 { 
 "ID":"",    
@@ -32,7 +35,8 @@
 "Date": "9/3/2023",
 "Time": "8:10 AM",
 "Location": "Maryville University Hockey Center",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 { 
 "ID":"",    
@@ -40,7 +44,8 @@
 "Date": "9/3/2023",
 "Time": "2:10 PM",
 "Location": "Maryville University Hockey Center",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 {    
 "ID":"", 
@@ -48,7 +53,8 @@
 "Date": "9/4/2023",
 "Time": "TBD",
 "Location": "Maryville University Hockey Center",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 {    
 "ID":"", 
@@ -56,7 +62,8 @@
 "Date": "9/15/2023",
 "Time": "5:50 PM",
 "Location": "Canlan Sports",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 { 
 "ID":"",    
@@ -64,7 +71,8 @@
 "Date": "9/30/2023",
 "Time": "3:00 PM",
 "Location": "Canlan Sports",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 
 { 
@@ -73,7 +81,8 @@
 "Date": "10/1/2023",
 "Time": "11:30 AM",
 "Location": "Canlan Sports",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 {  
 "ID":"",   
@@ -81,7 +90,8 @@
 "Date": "10/7/2023",
 "Time": "1:40 PM",
 "Location": "Mount Prospect Ice Arena",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 { 
 "ID":"",    
@@ -89,7 +99,8 @@
 "Date": "10/8/2023",
 "Time": "9:10 AM",
 "Location": "Mount Prospect Ice Arena",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 { 
 "ID":"",    
@@ -97,7 +108,8 @@
 "Date": "10/20/2023",
 "Time": "TBD",
 "Location": "Notre Dame Ice Arena",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 { 
 "ID":"",    
@@ -105,7 +117,8 @@
 "Date": "10/21/2023",
 "Time": "TBD",
 "Location": "Notre Dame Ice Arena",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 { 
 "ID":"",    
@@ -113,7 +126,8 @@
 "Date": "10/22/2023",
 "Time": "TBD",
 "Location": "Notre Dame Ice Arena",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 { 
 "ID":"",    
@@ -121,7 +135,8 @@
 "Date": "10/28/2023",
 "Time": "TBD",
 "Location": "Fifth Third Arena",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 { 
 "ID":"",    
@@ -129,7 +144,8 @@
 "Date": "10/29/2023",
 "Time": "9:20 AM",
 "Location": "Canlan Sports",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 
 { 
@@ -138,7 +154,8 @@
 "Date": "11/18/2023",
 "Time": "8:00 AM",
 "Location": "Orbit Ice Arena",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 { 
 "ID":"",    
@@ -146,7 +163,8 @@
 "Date": "11/19/2023",
 "Time": "7:00 AM",
 "Location": "Orbit Ice Arena",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 
 { 
@@ -155,7 +173,8 @@
 "Date": "12/2/2023",
 "Time": "9:20 AM",
 "Location": "Arctic Ice Arena",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 {  
 "ID":"",   
@@ -163,7 +182,8 @@
 "Date": "12/3/2023",
 "Time": "TBD",
 "Location": "Seven Bridges Ice Arena",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 {     
 "ID":"", 
@@ -171,7 +191,8 @@
 "Date": "12/9/2023",
 "Time": "4:20 PM",
 "Location": "Seven Bridges Ice Arena",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 { 
 "ID":"",    
@@ -179,7 +200,8 @@
 "Date": "12/10/2023",
 "Time": "7:50 AM",
 "Location": "Seven Bridges Ice Arena",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 { 
 "ID":"",    
@@ -187,7 +209,8 @@
 "Date": "12/15/2023",
 "Time": "TBD",
 "Location": "Little Ceasers Arena",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 {  
 "ID":"",   
@@ -195,7 +218,8 @@
 "Date": "12/16/2023",
 "Time": "TBD",
 "Location": "Little Ceasers Arena",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 { 
 "ID":"",    
@@ -203,7 +227,8 @@
 "Date": "12/17/2023",
 "Time": "TBD",
 "Location": "Little Ceasers Arena",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 {  
 "ID":"",   
@@ -211,7 +236,8 @@
 "Date": "12/21/2023",
 "Time": "TBD",
 "Location": "Mount Propsect Ice Arena",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 { 
 "ID":"",    
@@ -219,7 +245,8 @@
 "Date": "12/22/2023",
 "Time": "TBD",
 "Location": "Arctic Ice Arena",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 
 {
@@ -228,7 +255,8 @@
 "Date": "1/13/2024",
 "Time": "TBD",
 "Location": "Fraser Hockeyland Arena",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 { 
 "ID":"",    
@@ -236,7 +264,8 @@
 "Date": "1/14/2024",
 "Time": "TBD",
 "Location": "Fraser Hockeyland Arena",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 {  
 "ID":"",   
@@ -244,7 +273,8 @@
 "Date": "1/15/2024",
 "Time": "TBD",
 "Location": "Fraser Hockeyland Arena",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 { 
 "ID":"",    
@@ -252,7 +282,8 @@
 "Date": "1/20/2024",
 "Time": "TBD",
 "Location": "Fifth Third Arena",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 {  
 "ID":"",   
@@ -260,7 +291,8 @@
 "Date": "1/21/2024",
 "Time": "9:20 AM",
 "Location": "Arctic Ice Arena",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 { 
 "ID":"",    
@@ -268,7 +300,8 @@
 "Date": "1/27/2024",
 "Time": "8:50 AM",
 "Location": "Mount Prospect Ice Arena",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 { 
 "ID":"",    
@@ -276,7 +309,8 @@
 "Date": "1/28/2024",
 "Time": "9:20 AM",
 "Location": "Arctic Ice Arena",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 
 
@@ -286,7 +320,8 @@
 "Date": "2/23/2024",
 "Time": "TBD",
 "Location": "Mount Prospect Ice Arena",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 { 
 "ID":"",    
@@ -294,7 +329,8 @@
 "Date": "2/24/2024",
 "Time": "TBD",
 "Location": "Mount Prospect Ice Arena",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 {  
 "ID":"",   
@@ -302,7 +338,8 @@
 "Date": "2/25/2024",
 "Time": "TBD",
 "Location": "Mount Prospect Ice Arena",
-"Score":""
+"Score":"",
+"GameVideo":""
 },
 {  
 "ID":"",   
@@ -310,7 +347,8 @@
 "Date": "3/2/2024",
 "Time": "TBD",
 "Location": "Mount Prospect Ice Arena",
-"Score":""
+"Score":"",
+"GameVideo":""
 }
 ]
 }

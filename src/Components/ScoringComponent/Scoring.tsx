@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button, Icon, Item } from 'semantic-ui-react'
 import './Scoring.css'
+import data from './Scoring.json'
 
 import image1 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/Cade.jpeg'
 import image2 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/Colton.jpeg'
@@ -19,41 +20,54 @@ import GoalVideo from '../GoalVideoComponent/GoalVideo'
 
 
 const Scoring = () => (
+
+
+
+
   <Item.Group>
     <Item>
-      <Item.Image size='tiny' src={image4} circular />
+      <Item.Image size='tiny' src={image6} circular />
       <Item.Content verticalAlign='middle'>
-        <Item.Header>Everett Hollingsworth (1)             
+        <Item.Header>Weissenhofer (1)             
         </Item.Header>   
-        <GoalVideo/>         
-        <Item.Meta>Assists: Colton Podgurski (1), Cade Gustkowski (1)</Item.Meta>
+        <GoalVideo goalvid={"yqjddhedXcE"}/>         
+        <Item.Meta>Assists: LaFrance (1)</Item.Meta>
       </Item.Content>
     </Item>
     <Item>
-      <Item.Image size='tiny' src={image2} circular />
+      <Item.Image size='tiny' src={image11} circular />
       <Item.Content verticalAlign='middle'>
-        <Item.Header>Colton Podgurski (1)             
+        <Item.Header>Trafficanta (1)             
         </Item.Header>
-        <GoalVideo/>   
-        <Item.Meta>Assists: Cade Gustkowski (2)</Item.Meta>
+        <GoalVideo goalvid={"PtTH7tGUroo"}/>   
+        <Item.Meta>Assists: Hollinsgworth (1), Perry (1)</Item.Meta>
       </Item.Content>
     </Item>
     <Item>
-      <Item.Image size='tiny' src={image4} circular />
+      <Item.Image size='tiny' src={image1} circular />
       <Item.Content verticalAlign='middle'>
-        <Item.Header>Everett Hollingsworth (2)             
+        <Item.Header>Gustkowski (1)              
         </Item.Header>
-        <GoalVideo/>   
-        <Item.Meta>Assists: Colton Podgurski (1), Cade Gustkowski (1)</Item.Meta>      
+        <GoalVideo goalvid={"OxwS3ilQYeU"}/>   
+        <Item.Meta>Assists: Perry (2)</Item.Meta>       
       </Item.Content>
     </Item>
     <Item>
-      <Item.Image size='tiny' src={image4} circular />
+      <Item.Image size='tiny' src={image11} circular />
       <Item.Content verticalAlign='middle'>
-        <Item.Header>Everett Hollingsworth (3)              
+        <Item.Header>Trafficanta (2)             
         </Item.Header>
-        <GoalVideo/>   
-        <Item.Meta>Assists: Colton Podgurski (1), Cade Gustkowski (1)</Item.Meta>       
+        <GoalVideo goalvid={"JZWZqo5kvek"}/>   
+        <Item.Meta>Assists: Perna (1), LaFrance (2)</Item.Meta>       
+      </Item.Content>
+    </Item>
+    <Item>
+      <Item.Image size='tiny' src={image8} circular />
+      <Item.Content verticalAlign='middle'>
+        <Item.Header>Scanlon (1)              
+        </Item.Header>
+        <GoalVideo goalvid={"idafjY3HKUM"}/>   
+        <Item.Meta>Assists: Trafficanta (1), Perry (3)</Item.Meta>       
       </Item.Content>
     </Item>
   </Item.Group>

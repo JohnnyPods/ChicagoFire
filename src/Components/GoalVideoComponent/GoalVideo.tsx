@@ -1,9 +1,9 @@
 import React from 'react'
 import { Button, Modal, Icon, Embed } from 'semantic-ui-react'
-import image from '/Users/johnpod/FireSite/ChicagoFire/src/Components/TopLeftLogoComponent/fire.jpeg'
+import image from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/fire.jpeg'
 import './GoalVideo.css'
 
-function GoalVideo() {
+function GoalVideo({goalvid}: {goalvid:string}) {
   const [open, setOpen] = React.useState(false)
 
   return (
@@ -21,7 +21,7 @@ function GoalVideo() {
       <Embed
         autoplay={true}
         hd={true}
-        id='ziMYft9shAE'
+        id={goalvid}
         placeholder={image}
         source='youtube'
   />

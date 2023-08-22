@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button, Image, Modal, Icon, Embed } from 'semantic-ui-react'
+import fire from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/fire.jpeg'
 
 function GameVideo() {
   const [open, setOpen] = React.useState(false)
@@ -21,8 +22,8 @@ function GameVideo() {
       <Embed
         autoplay={true}
         hd={true}
-        id='v5e1FRqjdss'
-        placeholder='/images/image-16by9.png'
+        id='CcHgfQac9ow'
+        placeholder={fire}
         source='youtube'
   />
     </Modal>

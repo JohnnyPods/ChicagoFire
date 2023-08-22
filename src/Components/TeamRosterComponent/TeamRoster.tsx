@@ -17,7 +17,7 @@ import image11 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/b
 import image12 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/blackWaylon.jpeg'
 import image13 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/blackEaston.jpeg'
 import stock from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/test.jpeg'
-import fire from '/Users/johnpod/FireSite/ChicagoFire/src/Components/TopLeftLogoComponent/fire.jpeg'
+import fire from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/fire.jpeg'
 import PlayerModal
  from '../PlayerModalComponent/PlayerModal';
 import TeamInfo from '../TeamInfoComponent/TeamInfo';

@@ -14,38 +14,38 @@ import image11 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/b
 import image12 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/blackWaylon.jpeg'
 import image13 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/blackEaston.jpeg'
 import stock from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/test.jpeg'
-import fire from '/Users/johnpod/FireSite/ChicagoFire/src/Components/TopLeftLogoComponent/fire.jpeg'
+import fire from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/fire.jpeg'
 
 const GameStars = () => (
  
  <div style={{display:'flex', flexDirection:'row', justifyContent:'center', gap:'40px', overflow:'hidden', padding:'10px'}}>
 <Card.Group>
 <Card>
-<Image src={image4}/>
-<Card.Content>
-  <Card.Header>Everett Hollinsgworth</Card.Header>
+<Image src={image8}/>
+<Card.Content textAlign='center'>
+  <Card.Header >Julian Scanlon</Card.Header>
   <Card.Description>
-    3 Goals, 1 Assist
+    GWG
   </Card.Description>
 </Card.Content>
 </Card>
 
 <Card>
-<Image src={image2}/>
-<Card.Content>
-  <Card.Header>Colton Podgurski</Card.Header>
+<Image src={image13}/>
+<Card.Content textAlign='center'>
+  <Card.Header >Easton Goodfellow</Card.Header>
   <Card.Description>
-    1 Goal, 2 Assist, 3 Blocked Shots
+    19-23 Saves  .826 SV% 
   </Card.Description>
 </Card.Content>
 </Card>
 
 <Card>
-<Image src={image1}/>
-<Card.Content>
-  <Card.Header>Cade Gustkowski</Card.Header>
+<Image src={image9}/>
+<Card.Content textAlign='center'>
+  <Card.Header>Mason Perry</Card.Header>
   <Card.Description>
-    3 Assists, 2 Blocked Shots, +4
+    3 Assists
   </Card.Description>
 </Card.Content>
 </Card>

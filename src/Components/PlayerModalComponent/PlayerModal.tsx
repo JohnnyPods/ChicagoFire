@@ -15,7 +15,7 @@ import image11 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/S
 import image12 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/Waylon.jpeg'
 import image13 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/Easton.jpeg'
 import stock from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/test.jpeg'
-import fire from '/Users/johnpod/FireSite/ChicagoFire/src/Components/TopLeftLogoComponent/fire.jpeg'
+import fire from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/fire.jpeg'
 
 
 

@@ -18,10 +18,10 @@ export const TeamCalendar = () => {
 
   const panes = [
    
-    { render: () => <Tab.Pane as={Segment}>
-    <Table size='small' color='red' compact='very'>
+    { render: () => <Tab.Pane>
+    <Table size='large' color='red' structured>
   <Table.Header>
-    <Table.Row>
+    <Table.Row className='schedule'>
       <Table.HeaderCell>Opponent</Table.HeaderCell>
       <Table.HeaderCell>Date</Table.HeaderCell>
       <Table.HeaderCell>Time</Table.HeaderCell>
@@ -41,8 +41,8 @@ export const TeamCalendar = () => {
       <Table.Cell>{game.Time}</Table.Cell>
       <Table.Cell>{game.Location}</Table.Cell>
       <Table.Cell>{game.Score}</Table.Cell>
-      <Table.Cell><StatModal gameID={game.ID}/></Table.Cell>
-      <Table.Cell><GameVideo/></Table.Cell> 
+      <Table.Cell>{game.ID !== "" && (<StatModal gameID={game.ID}/>)}</Table.Cell>
+      <Table.Cell>{game.ID !== "" && (<GameVideo/>)}</Table.Cell> 
     </Table.Row>
     </>)})}
   </Table.Body>
@@ -53,9 +53,9 @@ export const TeamCalendar = () => {
   ]
 
   return(
-    <div>
+    <span>
       <Tab panes={panes} />
-      </div>
+    </span>
   )
 }
 

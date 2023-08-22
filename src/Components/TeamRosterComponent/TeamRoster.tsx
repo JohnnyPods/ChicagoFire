@@ -1,7 +1,6 @@
 import React from 'react'
-import { Card, Icon, Image, Placeholder, Grid, Item, List, Label } from 'semantic-ui-react'
+import { Card, Image, Label } from 'semantic-ui-react'
 import Roster from "./TeamRoster.json";
-import { Link, Route, Routes } from "react-router-dom"
 import './TeamRoster.css';
 import image1 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/blackCade.jpeg'
 import image2 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/squareColton.png'
@@ -16,7 +15,6 @@ import image10 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/b
 import image11 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/blackSteven.jpeg'
 import image12 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/blackWaylon.jpeg'
 import image13 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/blackEaston.jpeg'
-import stock from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/test.jpeg'
 import fire from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/fire.jpeg'
 import PlayerModal
  from '../PlayerModalComponent/PlayerModal';

@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { Tab, Table, Icon, Segment } from 'semantic-ui-react'
+import {Table} from 'semantic-ui-react'
 import Schedule from "./Schedule.json";
 import StatModal from '../ModalComponent/Modal';
 import GameVideo from '../GameVideoComponent/GameVideo';
@@ -16,12 +16,11 @@ export const TeamCalendar = () => {
     setOpenModal(!openModal)
   }
 
-  const panes = [
-   
-    { render: () => <Tab.Pane>
-    <Table size='large' color='red' structured>
+  return(
+    <span>
+       <Table size='large' color='black'>
   <Table.Header>
-    <Table.Row className='schedule'>
+    <Table.Row>
       <Table.HeaderCell>Opponent</Table.HeaderCell>
       <Table.HeaderCell>Date</Table.HeaderCell>
       <Table.HeaderCell>Time</Table.HeaderCell>
@@ -47,14 +46,7 @@ export const TeamCalendar = () => {
     </>)})}
   </Table.Body>
     </Table>
-    </Tab.Pane> },
-
-   
-  ]
-
-  return(
-    <span>
-      <Tab panes={panes} />
+    
     </span>
   )
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Icon, Image } from 'semantic-ui-react'
+import { Card, Image } from 'semantic-ui-react'
 import Data from "./GameStars.json"
 import image1 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/blackCade.jpeg'
 import image2 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/squareColton.png'
@@ -14,7 +14,6 @@ import image10 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/b
 import image11 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/blackSteven.jpeg'
 import image12 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/blackWaylon.jpeg'
 import image13 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/blackEaston.jpeg'
-import stock from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/test.jpeg'
 import fire from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/fire.jpeg'
 
 

@@ -1,8 +1,8 @@
 import React from 'react'
-import { Button, Image, Item, Grid, Icon } from 'semantic-ui-react'
+import { Image, Grid, Icon } from 'semantic-ui-react'
 import './Footer.css'
 import fire from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/fire.jpeg'
-import { Link } from 'react-router-dom'
+
 
 
 

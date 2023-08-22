@@ -1,6 +1,5 @@
 import React from 'react';
-import { useState } from 'react';
-import { Button, Segment } from 'semantic-ui-react'
+import { Segment } from 'semantic-ui-react'
 import styled from 'styled-components'
 import './TeamInfo.css';
 

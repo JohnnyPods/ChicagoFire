@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Icon, Item } from 'semantic-ui-react'
+import { Item } from 'semantic-ui-react'
 import './Scoring.css'
 import data from './Scoring.json'
 

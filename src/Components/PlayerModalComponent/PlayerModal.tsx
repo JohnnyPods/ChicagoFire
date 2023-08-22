@@ -1,6 +1,6 @@
 import React from 'react'
 import './PlayerModal.css'
-import { Button, Header, Image, Modal, Icon, Grid, Item, Segment, Label, List, Divider } from 'semantic-ui-react'
+import { Button, Image, Modal, Grid, Segment, Label, Divider } from 'semantic-ui-react'
 import image1 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/Cade.jpeg'
 import image2 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/Colton.jpeg'
 import image3 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/Emerson.jpeg'

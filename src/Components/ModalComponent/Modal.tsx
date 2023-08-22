@@ -1,5 +1,5 @@
 import React, { useContext, MouseEvent } from 'react'
-import { Button, Header, Image, Modal, Icon } from 'semantic-ui-react'
+import { Button, Modal, Icon } from 'semantic-ui-react'
 import Recap from '../RecapComponent/Recap';
 import { CurrentGame } from '../../Context';
 

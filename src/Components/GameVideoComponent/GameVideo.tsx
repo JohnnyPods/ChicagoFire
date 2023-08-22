@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Image, Modal, Icon, Embed } from 'semantic-ui-react'
+import { Button, Modal, Icon, Embed } from 'semantic-ui-react'
 import fire from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/fire.jpeg'
 
 function GameVideo({gamevid}: {gamevid:string}) {

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Icon, Image, Item, Label, Grid, Segment, Divider, List } from 'semantic-ui-react'
+import { Item, Grid, List } from 'semantic-ui-react'
 import './Coaches.css';
 import fire from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/fire.jpeg'
 

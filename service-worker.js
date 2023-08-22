@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ChicagoFire/precache-manifest.d095aa689f0078007c317e02081dbe58.js"
+  "/ChicagoFire/precache-manifest.67e3d12983c5acaa2fc9625bfb799119.js"
 );
 
 workbox.clientsClaim();

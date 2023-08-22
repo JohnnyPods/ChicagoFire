@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Card, Image } from 'semantic-ui-react'
 import Data from "./GameStars.json"
+import { CurrentGame } from '../../Context';
 import image1 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/blackCade.jpeg'
 import image2 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/squareColton.png'
 import image3 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/blackEmerson.jpeg'
@@ -51,14 +52,20 @@ const switchImages = (str:string) => {
   }
 }
 
-const GameStars = () => (
- 
+const GameStars = () => {
+
+  
+  const {currgame} = useContext(CurrentGame)
+  var x = parseInt(currgame)-1
+
+  return(  
+
  <div style={{display:'flex', flexDirection:'row', justifyContent:'center', gap:'40px', overflow:'hidden', padding:'10px'}}>
 
 <Card.Group>
 
-  {Data.map(game => {
-    return(  
+  {Data[x].map(game => {
+    return(
 <Card>
 <Image src={switchImages(game.Image)}/>
 <Card.Content textAlign='center'>
@@ -71,6 +78,6 @@ const GameStars = () => (
 )})}
 </Card.Group>
 </div>
-)
+)}
 
 export default GameStars

@@ -20,17 +20,16 @@ const Summary = () => {
 
   return(
     <Segment>
+      <h1 className='Summary'>{data[x].Title}</h1>
     <Image src={image2} size='big' floated='left' />
-
-    <h1 className='Summary'>{data[x].Title}</h1>
-    <br></br>
       <p className='article'>{data[x].P1}</p>
       <p className='article'>{data[x].P2}</p>
       <Image src={image3} size='medium' floated='left'/>
       <p className='article'>{data[x].P3}</p>
-      <Image src={image4} size='large' floated='right' />
-      <br></br>
+      <Image src={image4} size='medium' floated='right' />
       <p className='article'>{data[x].P4}</p>
+    
+      
     </Segment>
        
   )

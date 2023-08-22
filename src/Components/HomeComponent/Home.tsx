@@ -44,6 +44,7 @@ const Home = () => (
       <List.Item>3+ High Level coaches at every practice </List.Item>
       </List>
       </Grid.Column>
+      
       <GridColumn>
       <List bulleted relaxed>
       <List.Item>Skating evaluations and instruction by Jill Karsten</List.Item>

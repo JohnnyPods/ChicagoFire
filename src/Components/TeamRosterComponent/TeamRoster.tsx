@@ -18,7 +18,6 @@ import image13 from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/b
 import fire from '/Users/johnpod/FireSite/ChicagoFire/src/Components/Images/fire.jpeg'
 import PlayerModal
  from '../PlayerModalComponent/PlayerModal';
-import TeamInfo from '../TeamInfoComponent/TeamInfo';
 
 
 
@@ -57,10 +56,8 @@ const switchImages = (str:string) => {
 
 
 const TeamRoster = () => (
-  //switchImages(info.image)
-  <div className='roster'>
-    <TeamInfo/>
 
+  <div className='roster'>
     <Card.Group itemsPerRow={3}>
       
   {Roster.Player.map(info =>{

@@ -9,10 +9,8 @@ import Footer from '../FooterComponent/Footer'
 const Home = () => (
     <div className='Home'>
     <Segment inverted>
-      <br></br>
-    <span className='Welcome'>WELCOME TO THE CHICAGO FIRE</span>
     <Divider horizontal inverted/>
-    <Image src={team} />
+    <Image src={team}/>
     <Divider inverted section/>
 
     <span className='description'>

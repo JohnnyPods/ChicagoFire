@@ -22,6 +22,10 @@ const ButtonContainer = (text:string) => {
  const StatMenu = () => (
     <div className='options'>
 
+      <Segment inverted>
+      <span className='Welcome'>WELCOME TO THE CHICAGO FIRE</span>
+      </Segment>
+
 <Seg size = "small" inverted>
       <ButtonGroup widths={4} compact >
       <Button  as={Link} to="ChicagoFire" size='massive' inverted color='red'>

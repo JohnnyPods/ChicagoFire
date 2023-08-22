@@ -5,3 +5,8 @@
 .HomeButton{
     font-size: 2.75vw;
 }
+.Welcome{
+    font-size: 60px;
+    color: red;
+    line-height: 1;
+}

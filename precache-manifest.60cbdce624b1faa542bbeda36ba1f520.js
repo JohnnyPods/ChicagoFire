@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "943b7bd7db038512ea53",
-    "url": "/ChicagoFire/static/css/main.d1861968.chunk.css"
+    "revision": "2b15489944fb68acbdcb",
+    "url": "/ChicagoFire/static/css/main.c8a90094.chunk.css"
   },
   {
-    "revision": "943b7bd7db038512ea53",
-    "url": "/ChicagoFire/static/js/main.943b7bd7.chunk.js"
+    "revision": "2b15489944fb68acbdcb",
+    "url": "/ChicagoFire/static/js/main.2b154899.chunk.js"
   },
   {
-    "revision": "d49fa4e5928dac9a0e7f",
-    "url": "/ChicagoFire/static/js/1.d49fa4e5.chunk.js"
+    "revision": "599848211e2e564396d9",
+    "url": "/ChicagoFire/static/js/1.59984821.chunk.js"
   },
   {
-    "revision": "75f42a8b715c2dd2317c",
-    "url": "/ChicagoFire/static/css/2.c83d8771.chunk.css"
+    "revision": "6cc7707bd8b46b1f9af3",
+    "url": "/ChicagoFire/static/css/2.3f9edf0b.chunk.css"
   },
   {
-    "revision": "75f42a8b715c2dd2317c",
-    "url": "/ChicagoFire/static/js/2.75f42a8b.chunk.js"
+    "revision": "6cc7707bd8b46b1f9af3",
+    "url": "/ChicagoFire/static/js/2.6cc7707b.chunk.js"
   },
   {
-    "revision": "4d0b521b4bb64d3e583f",
-    "url": "/ChicagoFire/static/js/runtime~main.4d0b521b.js"
+    "revision": "14af2d6ba188bb6fecb3",
+    "url": "/ChicagoFire/static/js/runtime~main.14af2d6b.js"
   },
   {
     "revision": "81ef47d0a4cb3ec885ed75677776cc4e",
@@ -36,12 +36,8 @@ self.__precacheManifest = [
     "url": "/ChicagoFire/static/media/Julian.7b5229a6.jpeg"
   },
   {
-    "revision": "8e3c7f5520f5ae906c6cf6d7f3ddcd19",
-    "url": "/ChicagoFire/static/media/icons.8e3c7f55.eot"
-  },
-  {
-    "revision": "9c74e172f87984c48ddf5c8108cabe67",
-    "url": "/ChicagoFire/static/media/flags.9c74e172.png"
+    "revision": "0ab54153eeeca0ce03978cc463b257f7",
+    "url": "/ChicagoFire/static/media/icons.0ab54153.woff2"
   },
   {
     "revision": "faff92145777a3cbaf8e7367b4807987",
@@ -52,32 +48,32 @@ self.__precacheManifest = [
     "url": "/ChicagoFire/static/media/icons.b87b9ba5.ttf"
   },
   {
-    "revision": "962a1bf31c081691065fe333d9fa8105",
-    "url": "/ChicagoFire/static/media/icons.962a1bf3.svg"
+    "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
+    "url": "/ChicagoFire/static/media/outline-icons.ef60a4f6.woff"
+  },
+  {
+    "revision": "8e3c7f5520f5ae906c6cf6d7f3ddcd19",
+    "url": "/ChicagoFire/static/media/icons.8e3c7f55.eot"
   },
   {
     "revision": "701ae6abd4719e9c2ada3535a497b341",
     "url": "/ChicagoFire/static/media/outline-icons.701ae6ab.eot"
   },
   {
-    "revision": "cd6c777f1945164224dee082abaea03a",
-    "url": "/ChicagoFire/static/media/outline-icons.cd6c777f.woff2"
+    "revision": "ad97afd3337e8cda302d10ff5a4026b8",
+    "url": "/ChicagoFire/static/media/outline-icons.ad97afd3.ttf"
   },
   {
-    "revision": "0ab54153eeeca0ce03978cc463b257f7",
-    "url": "/ChicagoFire/static/media/icons.0ab54153.woff2"
-  },
-  {
-    "revision": "ef60a4f6c25ef7f39f2d25a748dbecfe",
-    "url": "/ChicagoFire/static/media/outline-icons.ef60a4f6.woff"
+    "revision": "962a1bf31c081691065fe333d9fa8105",
+    "url": "/ChicagoFire/static/media/icons.962a1bf3.svg"
   },
   {
     "revision": "82f60bd0b94a1ed68b1e6e309ce2e8c3",
     "url": "/ChicagoFire/static/media/outline-icons.82f60bd0.svg"
   },
   {
-    "revision": "ad97afd3337e8cda302d10ff5a4026b8",
-    "url": "/ChicagoFire/static/media/outline-icons.ad97afd3.ttf"
+    "revision": "cd6c777f1945164224dee082abaea03a",
+    "url": "/ChicagoFire/static/media/outline-icons.cd6c777f.woff2"
   },
   {
     "revision": "e8c322de9658cbeb8a774b6624167c2c",
@@ -94,6 +90,10 @@ self.__precacheManifest = [
   {
     "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
     "url": "/ChicagoFire/static/media/brand-icons.c5ebe0b3.ttf"
+  },
+  {
+    "revision": "9c74e172f87984c48ddf5c8108cabe67",
+    "url": "/ChicagoFire/static/media/flags.9c74e172.png"
   },
   {
     "revision": "a1a749e89f578a49306ec2b055c073da",
@@ -196,7 +196,7 @@ self.__precacheManifest = [
     "url": "/ChicagoFire/static/media/TeamPhoto.051cd575.jpg"
   },
   {
-    "revision": "3ce478bd545e83d49c57fd72b19e7775",
+    "revision": "a511fb4009063c7877f34470f276bbf7",
     "url": "/ChicagoFire/index.html"
   }
 ];

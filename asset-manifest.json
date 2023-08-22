@@ -1,7 +1,7 @@
 {
-  "main.css": "/ChicagoFire/static/css/main.ce4cb185.chunk.css",
-  "main.js": "/ChicagoFire/static/js/main.2d44941c.chunk.js",
-  "main.js.map": "/ChicagoFire/static/js/main.2d44941c.chunk.js.map",
+  "main.css": "/ChicagoFire/static/css/main.c59d049c.chunk.css",
+  "main.js": "/ChicagoFire/static/js/main.ad3ffaf1.chunk.js",
+  "main.js.map": "/ChicagoFire/static/js/main.ad3ffaf1.chunk.js.map",
   "static/js/1.8b52d869.chunk.js": "/ChicagoFire/static/js/1.8b52d869.chunk.js",
   "static/js/1.8b52d869.chunk.js.map": "/ChicagoFire/static/js/1.8b52d869.chunk.js.map",
   "static/css/2.5aa5182f.chunk.css": "/ChicagoFire/static/css/2.5aa5182f.chunk.css",
@@ -37,9 +37,9 @@
   "static/media/Game1Timeout.jpg": "/ChicagoFire/static/media/Game1Timeout.8c8ad2b0.jpg",
   "static/media/Game1Win.jpg": "/ChicagoFire/static/media/Game1Win.220baf69.jpg",
   "static/media/TeamPhoto.jpg": "/ChicagoFire/static/media/TeamPhoto.051cd575.jpg",
-  "static/css/main.ce4cb185.chunk.css.map": "/ChicagoFire/static/css/main.ce4cb185.chunk.css.map",
+  "static/css/main.c59d049c.chunk.css.map": "/ChicagoFire/static/css/main.c59d049c.chunk.css.map",
   "static/css/2.5aa5182f.chunk.css.map": "/ChicagoFire/static/css/2.5aa5182f.chunk.css.map",
   "index.html": "/ChicagoFire/index.html",
-  "precache-manifest.118e65ae328280168a19b628253a4f06.js": "/ChicagoFire/precache-manifest.118e65ae328280168a19b628253a4f06.js",
+  "precache-manifest.66803890e656aecb3adc6ab47c96f256.js": "/ChicagoFire/precache-manifest.66803890e656aecb3adc6ab47c96f256.js",
   "service-worker.js": "/ChicagoFire/service-worker.js"
 }

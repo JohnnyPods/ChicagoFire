@@ -1,5 +1,5 @@
 {
-  "homepage":"https://johnnypods.github.io/ChicagoFire/",
+  "homepage": "https://johnnypods.github.io/ChicagoFire/",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -14,7 +14,6 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.2",
     "@types/node": "^16.18.36",
     "@types/react": "^18.2.13",
     "@types/react-dom": "^18.2.6",
@@ -60,6 +59,8 @@
     ]
   },
   "devDependencies": {
+    "@babel/preset-typescript": "^7.22.5",
+    "@types/jest": "^29.5.4",
     "@types/react-modal-video": "^1.2.0",
     "gh-pages": "^6.0.0"
   }
